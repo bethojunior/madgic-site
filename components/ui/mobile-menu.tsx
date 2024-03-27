@@ -95,6 +95,7 @@ export default function MobileMenu() {
           <li>
             <Link
               href="https://wa.link/wuh9g7"
+              target="_blank"
               className="flex font-medium text-gray-200 bg-[#7163FF] hover:bg-[#6152de] py-2 justify-center text-lg my-2 rounded-md px-4"
               onClick={() => setMobileNavOpen(false)}
             >
