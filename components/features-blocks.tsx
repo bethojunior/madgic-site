@@ -23,7 +23,7 @@ export default function FeaturesBlocks() {
             <div className="relative flex flex-col items-start p-6 rounded shadow-xl" style={{ backgroundColor: '#E117C5', minHeight: '350px', borderRadius: '10px' }}>
               <img src="/images/Websites.svg" alt="Websites" className="w-24 h-24 p-1 -mt-1 mb-6" />
               <h4 className="text-3xl font-black leading-snug tracking-tight mb-1 text-white">Websites</h4>
-              <p className="text-gray-600 mb-4 text-white">Fazemos sites sob a demanda do seu negócio para que seja cada vez mais fodão na era digital</p>
+              <p className="text-gray-600 mb-4 text-white">Transforme sua presença online com websites de alta qualidade e design profissional.</p>
               <a href="https://wa.link/wuh9g7" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button style={{ border: '1px solid white', borderRadius: '10px', padding: '8px 16px', color: 'white', cursor: 'pointer' }}>
                   Fale Conosco
@@ -35,7 +35,7 @@ export default function FeaturesBlocks() {
             <div className="relative flex flex-col items-start p-6 rounded shadow-xl" style={{ backgroundColor: '#FF2597', minHeight: '350px', borderRadius: '10px' }}>
               <img src="/images/Softwares.svg" alt="Softwares" className="w-24 h-24 p-1 -mt-1 mb-6" />
               <h4 className="text-3xl font-black leading-snug tracking-tight mb-1 text-white">Softwares</h4>
-              <p className="text-gray-600 mb-4 text-white">Fazemos sites sob a demanda do seu negócio para que seja cada vez mais fodão na era digital</p>
+              <p className="text-gray-600 mb-4 text-white">Transforme suas ideias em realidade com nossos serviços de desenvolvimento de softwares.</p>
               <a href="https://wa.link/wuh9g7" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button style={{ border: '1px solid white', borderRadius: '10px', padding: '8px 16px', color: 'white', cursor: 'pointer' }}>
                   Fale Conosco
@@ -47,7 +47,7 @@ export default function FeaturesBlocks() {
             <div className="relative flex flex-col items-start p-6 rounded shadow-xl" style={{ backgroundColor: '#FF9B50', minHeight: '350px', borderRadius: '10px' }}>
               <img src="/images/Lojas Virtuais.svg" alt="Lojas Virtuais" className="w-24 h-24 p-1 -mt-1 mb-6" />
               <h4 className="text-3xl font-black leading-snug tracking-tight mb-1 text-white">Lojas virtuais</h4>
-              <p className="text-gray-600 mb-4 text-white">Fazemos sites sob a demanda do seu negócio para que seja cada vez mais fodão na era digital</p>
+              <p className="text-gray-600 mb-4 text-white">Potencialize suas vendas com uma loja virtual feita sob medida para o seu negócio.</p>
               <a href="https://wa.link/wuh9g7" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button style={{ border: '1px solid white', borderRadius: '10px', padding: '8px 16px', color: 'white', cursor: 'pointer' }}>
                   Fale Conosco
