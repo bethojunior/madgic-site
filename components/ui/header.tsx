@@ -32,7 +32,7 @@ export default function Header() {
           <nav className="hidden md:flex md:grow justify-center space-x-4">
             <Link href="/" className="text-lg mx-4 hover:text-gray-900">Home</Link>
             <Link href="/#servicos" className="text-lg mx-4 hover:text-gray-900">Serviços</Link>
-            <Link href="/#contatos" className="text-lg mx-4 hover:text-gray-900">Contato</Link>
+            <Link href="/contact" className="text-lg mx-4 hover:text-gray-900">Contato</Link>
           </nav>
 
           <Link href="https://wa.link/wuh9g7" target="_blank" className="btn-sm hidden md:inline-flex text-gray-200 bg-[#7163FF] hover:bg-[#6152de] ml-3 rounded-md">
