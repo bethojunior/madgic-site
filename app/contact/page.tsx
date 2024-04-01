@@ -10,14 +10,15 @@ export default function Contact() {
   const [message, setMessage] = useState<string>('');
 
   const handlePhoneChange = (e: ChangeEvent<HTMLInputElement>) => {
-    let value = e.target.value.replace(/\D/g, ''); 
+    let value = e.target.value.replace(/\D/g, '');
     if (value.length > 2 && value.length <= 6) {
       value = `(${value.slice(0, 2)}) ${value.slice(2)}`;
     } else if (value.length > 6) {
-      value = `(${value.slice(0, 2)}) ${value.slice(2, 6)}-${value.slice(6, 11)}`;
+      value = `(${value.slice(0, 2)}) ${value.slice(2, 7)}-${value.slice(7, 11)}`;
     }
     setPhoneNumber(value);
   };
+
 
   const handleMessageChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
     setMessage(e.target.value);
@@ -36,7 +37,7 @@ export default function Contact() {
 
     emailjs.send('service_isho01b', 'template_z5idhcu', {
       from_name: name,
-      reply_to: email,
+      email: email,
       message: message,
       phone: phoneNumber,
     }, 'CMz6eVs7v5mudTXp1')
@@ -85,6 +86,7 @@ export default function Contact() {
                     value={phoneNumber}
                     onChange={handlePhoneChange}
                     pattern="\(\d{2}\) \d{5}-\d{4}"
+                    maxLength={15}
                     required
                   />
                 </div>
